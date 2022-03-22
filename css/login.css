@@ -130,3 +130,10 @@ body {
 .form-box .btn-twitter:hover {
     background: #2eb7e5;
 }
+
+
+/* dissappear div */
+
+#user {
+    display: none;
+}
