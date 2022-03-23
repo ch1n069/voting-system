@@ -44,3 +44,10 @@ login.addEventListener("click", (e) => {
         })
 
 })
+
+auth.onAuthStateChanged((user) => {
+    if (user) {
+        window.location = './index.html'
+    }
+
+})
