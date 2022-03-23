@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="../css/dashboard.css">
     <script src="https://kit.fontawesome.com/3ec3d248e9.js" crossorigin="anonymous"></script>
 
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -35,8 +39,8 @@
             <div id="polar">
              <img src="../images/user.png" alt="">
              <h3>Menu</h3>
-             <a href=""><i class="fas fa-user-plus fa-spin fa-3x"></i>Add Users</a>
-            <a href=""><i class="fas fa-envelope fa-3x"></i>Send Email</a>
+             <a href="" class="addUser"><i class=" fas fa-user-plus fa-spin fa-3x"></i>Add Users</a>
+            <a href="" class="sendMail"><i class="sendEmail fas fa-envelope fa-3x"></i>Send Email</a>
             </div>
         </aside>
 
@@ -45,7 +49,7 @@
             <h1>Welcome to the Dashboard page</h1>
         
             
-            <form class="sendEmail">
+            <form class="addingUser">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Add User</label>
                     <input type="text" class="form-control" id="date">

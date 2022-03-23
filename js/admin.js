@@ -1,1 +1,6 @@
-alert("hello")
+// $(document).ready(()=>{
+//     $(".addUser").click(()=>{
+//         $(".addingUser").slideToggle();
+//     })
+//     $(".")
+// })

@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(191, 226, 214);
+    background-color: rgb(223, 240, 234);
     font-family: 'Spectral', serif;
 }
 img{
@@ -33,7 +33,7 @@ aside {
 
 /* this is the form to add users */
 .sendEmail{
-    /* display:none; */
+    display:none;
 }
 
 
@@ -41,5 +41,11 @@ article {
     float: left;
     padding: 20px;
     width: 70%;
+}
+#displayUsers{
+    display:none;
+}
 
+.addingUser{
+    display:none;
 }
