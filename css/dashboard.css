@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 body{
-    background-color: aquamarine;
+    background-color: rgb(191, 226, 214);
+    font-family: 'Spectral', serif;
 }
 img{
   display:block;
@@ -15,10 +22,18 @@ a{
     display:block;
     margin-bottom: 20px;
 }
+.fas{
+    margin-right: 20px;
+}
 aside {
     float: left;
     width: 30%;
 
+}
+
+/* this is the form to add users */
+.sendEmail{
+    /* display:none; */
 }
 
 
