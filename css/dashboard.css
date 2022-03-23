@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+img{
+  display:block;
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+  
+}
+h3{
+    margin-bottom: 30px;
+}
+a{
+    display:block;
+    margin-bottom: 20px;
+}
+aside {
+    float: left;
+    width: 30%;
+
+}
+
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+
+}
