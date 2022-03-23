@@ -1,5 +1,5 @@
 // let login = document.getElementById("login");
-///////sign up 
+///////sign up  users to our database 
 let signUp = document.getElementById("signup");
 signUp.addEventListener("click", (e) => {
     //prevent default behavior
@@ -22,7 +22,7 @@ signUp.addEventListener("click", (e) => {
 })
 
 
-
+//logs in user
 let login = document.getElementById("login");
 login.addEventListener("click", (e) => {
     //prevent default behavior
@@ -45,9 +45,12 @@ login.addEventListener("click", (e) => {
 
 })
 
+
+///handles user logout 
+
 auth.onAuthStateChanged((user) => {
     if (user) {
-        window.location = './index.html'
+        window.location = ''
     }
 
 })
