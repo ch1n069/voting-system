@@ -1,7 +1,7 @@
 body {
-  background: #282E3A;
-  background-color: #282E3A;
-  background-image: url("https://images.pexels.com/photos/8850856/pexels-photo-8850856.jpeg?cs=srgb&dl=pexels-tara-winstead-8850856.jpg&fm=jpg");
+  /* background: #282E3A; */
+  /* background-color: #282E3A; */
+  background-image:url("https://images.pexels.com/photos/8850856/pexels-photo-8850856.jpeg?cs=srgb&dl=pexels-tara-winstead-8850856.jpg&fm=jpg");
   object-fit:cover ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,10 +63,20 @@ span.turn {
   padding-bottom: 0;
 }
 
+.gon{
+  color: #8E418B;
+  font-size: 1.3em;
+}
+.penta {
+  color: green;
+  font-size: 1.3em;
+}
+
 .navbar-brand{
   font-family: 'Spectral', 'serif';
   font-size: 2.2em;
-  font-weight: bold
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .nav-item{
