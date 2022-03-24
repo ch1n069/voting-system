@@ -1,1 +1,187 @@
-* {}
+
+body{
+    font-family:'Spectral', 'serif';
+}
+
+
+#title {
+    background-color: whitesmoke;
+   
+}
+.img-background{
+    
+}
+p {
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bolder;
+   
+}
+.hero-par{
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 600;
+    padding-left: 0.1em;
+}
+.para {
+    width: 70%;
+    margin: auto;
+}
+
+.hero-par{
+    color: black;
+}
+h1{
+    font-family:'Spectral', 'serif';
+    font-size: 4.0rem;
+    line-height: 1;
+    color:#1350ac ;
+    font-weight: 400;
+   
+}
+h4 {
+    font-family: 'Spectral', 'serif';
+    font-weight: light;
+}
+
+h2{
+    font-weight: bold;
+    color:#8E418B ;
+}
+.container-fluid {
+    padding: 2% 8%;
+}
+
+.navbar{
+    padding: 3 3 3.5em;
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    font-family: 'Spectral', 'serif';
+    font-size: 2.2em;
+    font-weight: bold
+}
+
+.nav-item{
+    padding: 0 15px;
+    
+}
+
+.nav-link{
+    font-family:'Spectral', 'serif';
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-button {
+    margin: 5% 3% 5% 0;
+}
+
+.gon{
+    color: #8E418B;
+    font-size: 1.3em;
+}
+.penta {
+    color: green;
+    font-size: 1.3em;
+}
+
+.title-image{
+    height: 100%;
+    width: 100%;
+}
+
+#polls{
+    padding: 5% 10%;
+    background: url("img/v7.jpg");
+
+}
+.polls-heading{
+    text-align: center;
+    padding-left: 2em;
+    font-style: italic;
+    color: #8E418B;
+   
+}
+.private-poll{
+    text-align: center;
+    
+    
+  
+}
+.public-poll{
+    text-align: center;
+  
+}
+.img1{
+    height: 90%;
+    width: 90%;
+}
+
+.img2 {
+    height: 400px;
+    width: 300px;
+    padding-bottom: 2em;
+}
+
+/*About Section*/
+
+#about {
+    background:whitesmoke; 
+    text-align: center;
+    
+    height: 100vh;
+    width: 100%;
+}
+
+.about-us {
+    color:#8E418B ;
+    font-weight: bolder;
+} 
+
+
+/* contact us section */
+
+#contact {
+    background:url("img/v7.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+.head{
+    background-color: darkmagenta;
+    border-radius: 5px;
+    margin-top: -50px;
+}
+.effect-1 {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid grey;
+}
+.effect-1 ~ .Focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    background-color: darkmagenta;
+    transition: 0.4s;
+}
+
+.effect-1:focus ~ .Focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+.btn1 {
+    background-color: darkmagenta;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 145px;
+} 
