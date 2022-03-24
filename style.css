@@ -8,9 +8,11 @@ body{
     background-color: whitesmoke;
    
 }
-.img-background{
+
+/* .img-background{
+    margin-top:24%;
     
-}
+} */
 p {
     font-size: 1.3em;
     font-style: italic;
@@ -53,8 +55,8 @@ h2{
 }
 
 .navbar{
-    padding: 3 3 3.5em;
-    padding-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 3.5em;
 }
 
 .navbar-brand{
