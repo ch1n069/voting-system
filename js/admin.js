@@ -14,10 +14,10 @@ $(document).ready(() => {
         $("#tBody").append(tableEl);
         $(".removeUser").show();
         $("#displayUsers").show();
-     
+
 
     })
-    $(".removeUser").click(function () {
+    $(".removeUser").click(function() {
         history.go(0);
     })
 
