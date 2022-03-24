@@ -16,7 +16,7 @@ body {
 
 .img-left {
     width: 45%;
-    background: url('../images/img.jpg') center;
+    background: url('https://images.pexels.com/photos/2739074/pexels-photo-2739074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center;
     background-size: cover;
 }
 
