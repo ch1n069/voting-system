@@ -1,7 +1,8 @@
 body {
   background: #282E3A;
   background-color: #282E3A;
-  background-image: url("../images/public.jpeg");
+  background-image: url("https://images.pexels.com/photos/8850856/pexels-photo-8850856.jpeg?cs=srgb&dl=pexels-tara-winstead-8850856.jpg&fm=jpg");
+  object-fit:cover ;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,4 +53,33 @@ span.turn {
   100% {
       transform: rotateY(0deg)
   }
+}
+.container-fluid {
+  padding: 2% 8%;
+}
+
+.navbar{
+  padding: 3 3 3.5em;
+  padding-bottom: 0;
+}
+
+.navbar-brand{
+  font-family: 'Spectral', 'serif';
+  font-size: 2.2em;
+  font-weight: bold
+}
+
+.nav-item{
+  padding: 0 15px;
+  
+}
+
+.nav-link{
+  font-family:'Spectral', 'serif';
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-button {
+  margin: 5% 3% 5% 0;
 }
