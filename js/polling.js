@@ -41,25 +41,23 @@ function checkButton() {
 } 
 
 
-//form Hide function
 
+ //polling and results page function
+
+ $(document).ready(function(){
+  $(".vote").click(function(){
+  $("#poll").toggle(100);
+  $("#poll").hide(50);
+  });
+  });
+//  $(document).ready(function(){
+//   $("#submit-votes").click(function(){
+//   $("#result1").toggle(100);
+//   $("#result").show(2000);
+//   });
+//   });
 $(document).ready(function(){
-    $(".vote btn btn-primary").click(function(){
-      $(".voting-form").hide(1000, function(){
-        alert("Hide() method is finished!");
-      });
-    });
-    $(".resultsDiv").load(function(){
-      $("voteMessage").show(10, function(){
-        alert("Show() method is finished!");
-      });
-    });
+  $("button").click(function(){
+    $("#result").fadeIn(100000);
   });
-
-  $(document).ready(function(){
-    $("button").click(function(){
-      $("#div1").load("demo_test.txt");
-    });
-  });
-
- 
+});
