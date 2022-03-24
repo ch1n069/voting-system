@@ -193,3 +193,11 @@ h2{
   margin: auto;
 }
 
+span.highlight {
+  color:deeppink;
+}
+
+span.inviteSuccess {
+  color:deeppink;
+}
+

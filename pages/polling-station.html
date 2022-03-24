@@ -12,6 +12,8 @@
     <title>Voting and Results Page</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="../js/polling.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <!--jQuery hide with callback function-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!--formHide-->
 <style>
@@ -54,8 +56,7 @@
 
 
       <div class="row">  
-
-
+        <br>
 
         <!--Voting area-->
         <!--Private Voting Section-->
@@ -70,8 +71,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
-                                <br><h3 id="form-title">Participate in the Election Below</h3>
-                                <hr>
+                                <br><h5 id="form-title"><span class="inviteSuccess">Congratulations!!</span> You have been invited to participate in this election for:</h5>
+                                <br>
                                 
                                 <!--RADIO VOTING FORM-->
                                 <div class="formArea">
@@ -81,7 +82,9 @@
                                       <form id="voting-form" target="_parent" onsubmit="return false;">
                             
                                       <div class="custom-radio-button">
-                                          <h3>Vote for Head of the Finance Department below:</h3>
+                                          <h3>Head of Finance Department</h3>
+                                          <hr>
+                                          <h6>Check/click the <i><span class="highlight">colored circle</span></i> against your candidate of choice and click on the blue '<i><span class="highlight">cast VOTE</span></i>' button to vote:</h6>
                                           <br>
                                         <div class="form-check">
                                           <input id="color-red" type="radio" name="candidate" value=Bruno>
@@ -138,7 +141,7 @@
                   </div><!--end-->
 
                     <!--Results SECTION starts here-->
-                    <div id="#show"><!--start-->
+                    <div class="text-center" id="#show"><!--start-->
                       <h3></h3>
                       <div id="result">
                         <p id="tick"> <br></p>
