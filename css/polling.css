@@ -71,6 +71,11 @@
 
 #tick {
     color: green;
+    font-size: xx-large;
 }
 
-#error {color: red;}
+#error {
+  color: red;
+  font-size: medium;
+}
+

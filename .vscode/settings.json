@@ -1,3 +1,9 @@
 {
-    "liveServer.settings.port": 5502
-}
+pollingStation
+    "liveServer.settings.port": 5501,
+    "cSpell.words": [
+        "Kinoti",
+        "Ngugi",
+        "Nyateya",
+        "Okeyo"
+    ]
