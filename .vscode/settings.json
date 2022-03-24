@@ -1,4 +1,5 @@
 {
+pollingStation
     "liveServer.settings.port": 5501,
     "cSpell.words": [
         "Kinoti",
@@ -6,4 +7,3 @@
         "Nyateya",
         "Okeyo"
     ]
-}
