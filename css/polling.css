@@ -1,6 +1,111 @@
-* {
-    font-family: 'Spectral','serif';
+/*Layout CSS*/
+
+body{
+  font-family:'Spectral', 'serif';
 }
+
+
+#title {
+  background-color: whitesmoke;
+ 
+}
+.img-background{
+  
+}
+p {
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: bolder;
+ 
+}
+.hero-par{
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 600;
+  padding-left: 0.1em;
+}
+.para {
+  width: 70%;
+  margin: auto;
+}
+
+.hero-par{
+  color: black;
+}
+h1{
+  font-family:'Spectral', 'serif';
+  font-size: 4.0rem;
+  line-height: 1;
+  color:#1350ac ;
+  font-weight: 400;
+ 
+}
+h4 {
+  font-family: 'Spectral', 'serif';
+  font-weight: light;
+}
+
+h2{
+  font-weight: bold;
+  color:#8E418B ;
+}
+.container-fluid {
+  padding: 2% 8%;
+}
+
+.navbar{
+  padding: 3 3 3.5em;
+  padding-bottom: 0;
+}
+
+.navbar-brand{
+  font-family: 'Spectral', 'serif';
+  font-size: 2.2em;
+  font-weight: bold
+}
+
+.nav-item{
+  padding: 0 15px;
+  
+}
+
+.nav-link{
+  font-family:'Spectral', 'serif';
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-button {
+  margin: 5% 3% 5% 0;
+}
+
+.gon{
+  color: #8E418B;
+  font-size: 1.3em;
+}
+.penta {
+  color: green;
+  font-size: 1.3em;
+}
+
+.title-image{
+  height: 100%;
+  width: 100%;
+}
+
+
+/* contact us section */
+
+.head{
+  background-color: darkmagenta;
+  border-radius: 5px;
+  margin-top: -50px;
+}
+
+ 
+
+
+/* Form css */
 .custom-radio-button div {
     display:block;
   }
@@ -56,14 +161,14 @@
 
   /*form area */
   .formArea {
-      width: 69%;
+      width: 90%;
       box-shadow: #333;
   }
 
   /* Submit float */
 .buttonSTYLE {
     float: right;
-    margin-right: 30%;
+    margin-right: 20%;
   }
 
 
@@ -77,5 +182,14 @@
 #error {
   color: red;
   font-size: medium;
+}
+
+#selection {
+  height: auto;
+  background-color:rgba(212, 250, 137, 0.281);
+}
+
+.col-md-6 {
+  margin: auto;
 }
 
