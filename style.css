@@ -94,7 +94,7 @@ h2{
 
 #polls{
     padding: 5% 10%;
-    background: url("img/v7.jpg");
+    background: url("images/v7.jpg");
 
 }
 .polls-heading{
@@ -144,7 +144,7 @@ h2{
 /* contact us section */
 
 #contact {
-    background:url("img/v7.jpg");
+    background:url("images/v7.jpg");
     background-size: 100% 100%;
     height: 100vh;
     width: 100%;
