@@ -101,7 +101,20 @@ li:focus {
 }
 
 
+h3 {
+    margin-bottom: 30px;
+}
 
+
+
+.removeUser {
+    display: none;
+}
+
+
+#displayUsers .addingUser {
+    display: none;
+}
 
 
 @media screen and (max-width:900px) and (min-width:400px) {
@@ -151,7 +164,7 @@ ul li {
 }
 
 ul li span {
-    /* //display:none; */
+    /* display:none; */
     opacity: 0;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
@@ -239,19 +252,4 @@ ul li {
 
 .sidebar.focus.smartphone-menu-trigger {
     pointer-events: none;
-}
-
-h3 {
-    margin-bottom: 30px;
-}
-
-
-
-.removeUser {
-    display: none;
-}
-
-
-#displayUsers .addingUser {
-    display: none;
 }
