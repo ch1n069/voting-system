@@ -1,6 +1,6 @@
 body {
     font-family: 'Spectral', serif;
-    background: #ffea92;
+    background: #F5F5F5;
     margin: 0;
     color: rgb(83, 80, 80);
     padding-left: 240px;
@@ -18,7 +18,7 @@ main {
 }
 
 .sidebar {
-    background: #5bc995;
+    background: #1DA1F2;
     height: 100vh;
     width: 240px;
     position: fixed;
@@ -68,6 +68,8 @@ ul li {
 form {
     padding-top: 50px;
     font-size: 1.5rem;
+    width: 50%;
+    margin-left: 25%;
 }
 
 li:hover {
@@ -92,6 +94,9 @@ h3 {
     display: none;
 }
 
+#displayUsers{
+    display:none;
+}
 
 @media screen and (max-width:900px) and (min-width:400px) {
     body {

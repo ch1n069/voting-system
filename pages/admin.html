@@ -45,46 +45,53 @@
 
     <!-- the main part on the right of sidebar -->
     <main>
-        <div>
-            <!-- <h1>Welcome to the Dashboard page</h1> -->
-            <form class="addingUser">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="user_name form-control" placeholder="Enter Name of Voter" required>
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="user_email form-control" placeholder="Enter email of Voter" required>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col text-center">
+                    <form class="addingUser">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="user_name form-control" placeholder="Enter Name of Voter" required>
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="user_email form-control" placeholder="Enter email of Voter" required>
+        
+                        </div>
+        
+                        <input type="submit" value="Add Voter" class="btn btn-outline-success btn-lg" id="get_name">
+                    </form>
 
+                    <div class="userAdded">
+                        <ul class="users">
+        
+                        </ul>
+                    </div>
+                    <!-- this is where the names will be displayed -->
+                    <div id="displayUsers" class="mt-5">
+                        <h3>Users table</h3>
+                        <table class="added_users table table-hover">
+                            <thead>
+                                <tr>
+        
+                                    <th scope="col">User</th>
+                                    <th scope="col">Email</th>
+                                </tr>
+        
+                            </thead>
+                            <tbody id="tBody">
+                                <tr id="tRow">
+        
+                                    <td id="table_name"></td>
+                                    <td id="table_email"></td>
+                                </tr>
+        
+                            </tbody>
+                        </table>
+                        <button class="removeUser btn btn-danger">Delete Users</button>
                 </div>
-
-                <input type="submit" value="Add Voter" class="btn btn-outline-success btn-lg" id="get_name">
-            </form>
-            <div class="userAdded">
-                <ul class="users">
-
-                </ul>
             </div>
-            <!-- this is where the names will be displayed -->
-            <div id="displayUsers">
-                <h3>Users table</h3>
-                <table class="added_users table table-hover">
-                    <thead>
-                        <tr>
-
-                            <th scope="col">User</th>
-                            <th scope="col">Email</th>
-                        </tr>
-
-                    </thead>
-                    <tbody id="tBody">
-                        <tr id="tRow">
-
-                            <td id="table_name"></td>
-                            <td id="table_email"></td>
-                        </tr>
-
-                    </tbody>
-                </table>
-                <button class="removeUser btn btn-danger">Delete Users</button>
+            <!-- <h1>Welcome to the Dashboard page</h1> -->
+           
+           
             </div>
         </div>
 

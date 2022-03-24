@@ -13,7 +13,8 @@ $(document).ready(() => {
         var tableEl = $("<tr><td> " + userName + " </td> <td> " + userEmail + "</td></tr>")
         $("#tBody").append(tableEl);
         $(".removeUser").show();
-
+        $("#displayUsers").show();
+     
 
     })
     $(".removeUser").click(function () {
