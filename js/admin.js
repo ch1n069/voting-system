@@ -5,11 +5,7 @@ $(document).ready(() => {
         $(".addingUser").slideToggle();
     })
 
-    // $(".sendMail").click(()=>{
 
-    // })
-
-    // button for adding user details
     $("form.addingUser").submit((event) => {
         event.preventDefault();
         let userName = $(".user_name").val();
@@ -17,10 +13,7 @@ $(document).ready(() => {
         var tableEl = $("<tr><td> " + userName + " </td> <td> " + userEmail + "</td></tr>")
         $("#tBody").append(tableEl);
         $(".removeUser").show();
-        // $("#tBody").eq(0).remove();
 
-        //look for removing
-        //$("#tBody").append(userEmail);
 
     })
     $(".removeUser").click(function () {
