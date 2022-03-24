@@ -23,36 +23,35 @@
 </head>
 
 <body>
+    <nav class="sidebar" tabindex="0">
+        <div class="smartphone-menu-trigger"></div>
+        <header class="sidebar_pic">
+            <img src="https://images.pexels.com/photos/10850706/pexels-photo-10850706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                class="rounded-circle z-depth-2" data-holder-rendered="true" alt="200x200">
 
-    <header>
-        <nav class="navbar navbar-light ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <i class="fas fa-globe-africa"></i>
-
-                </a>
-            </div>
-        </nav>
-    </header>
-    <section>
-        <aside>
-            <div id="polar">
-                <img src="../images/coder.jpg" alt="">
-                <p><strong>Senior Dev</strong></p>
-                <h3>Menu</h3>
-
-                <a href="#" class="addUser"><i class="fas fa-user-plus fa-3x"></i>Add Users</a>
-                <a href="#" class="sendMail"><i class="fas fa-users fa-3x"></i></i>View Users</a>
-                <!-- <a href="#" class="logOut"><i class="fas fa-sign-out-alt fa-3x"></i>Sign Out</a> -->
-                <button id="sign_out" class="btn btn-warning">Sign Out</button>
-            </div>
-        </aside>
+        </header>
 
 
-        <article>
+
+
+        <h2><strong>Senior Dev</strong></h2>
+       
+
+        <!-- //this is the list items in the sidebar -->
+
+
+        <ul>
+            <li class="addUser"><i class="fas fa-user-plus"></i><span>Add Voter</span></li>
+            <li class="sendMail"><i class="fas fa-users"></i></i><span>View Voters</span></li>
+        </ul>
+        <!-- logout button -->
+        <button id="sign_out" class="btn btn-warning">Sign Out</button>
+    </nav>
+
+    <!-- the main part on the right of sidebar -->
+    <main>
+        <div class="section">
             <h1>Welcome to the Dashboard page</h1>
-
-
             <form class="addingUser">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
@@ -92,11 +91,12 @@
                 </table>
                 <button class="removeUser btn btn-danger">Delete Users</button>
             </div>
+        </div>
 
-        </article>
+
+    </main>
 
 
-    </section>
 
 
 
