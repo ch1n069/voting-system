@@ -23,73 +23,80 @@
 </head>
 
 <body>
-<nav class="sidebar">
-    <header>
-        <img src="https://images.pexels.com/photos/10850706/pexels-photo-10850706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="rounded-circle z-depth-2" data-holder-rendered="true" alt="200x200">
-                
-    </header>
-</nav>
-   
- <main>
-    <div id="polar">
+    <nav class="sidebar" tabindex="0">
+        <div class="smartphone-menu-trigger"></div>
+        <header class="sidebar_pic">
+            <img src="https://images.pexels.com/photos/10850706/pexels-photo-10850706.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                class="rounded-circle z-depth-2" data-holder-rendered="true" alt="200x200">
+
+        </header>
+
+
+
+
         <p><strong>Senior Dev</strong></p>
         <h3>Menu</h3>
 
-        <a href="#" class="addUser"><i class="fas fa-user-plus fa-3x"></i>Add Users</a>
-        <a href="#" class="sendMail"><i class="fas fa-users fa-3x"></i></i>View Users</a>
-        <!-- <a href="#" class="logOut"><i class="fas fa-sign-out-alt fa-3x"></i>Sign Out</a> -->
+        <!-- //this is the list items in the sidebar -->
+
+
+        <ul>
+            <li class="addUser"><i class="fas fa-user-plus fa-3x"></i><span>Add Voter</span></li>
+            <li class="sendMail"><i class="fas fa-users fa-3x"></i></i><span>View Voters</span></li>
+        </ul>
+        <!-- logout button -->
         <button id="sign_out" class="btn btn-warning">Sign Out</button>
-    </div>
+    </nav>
 
+    <!-- the main part on the right of sidebar -->
+    <main>
+        <div class="section">
+            <h1>Welcome to the Dashboard page</h1>
+            <form class="addingUser">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="user_name form-control" placeholder="Enter Name of User" required>
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="user_email form-control" placeholder="Enter email of User" required>
 
+                </div>
 
+                <input type="submit" value="Add User" class="btn btn-outline-success btn-lg" id="get_name">
+            </form>
+            <div class="userAdded">
+                <ul class="users">
 
-    <h1>Welcome to the Dashboard page</h1>
+                </ul>
+            </div>
+            <!-- this is where the names will be displayed -->
+            <div id="displayUsers">
+                <h3>Users table</h3>
+                <table class="added_users table table-hover">
+                    <thead>
+                        <tr>
 
+                            <th scope="col">User</th>
+                            <th scope="col">Email</th>
+                        </tr>
 
-    <form class="addingUser">
-        <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="user_name form-control" placeholder="Enter Name of User" required>
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="user_email form-control" placeholder="Enter email of User" required>
+                    </thead>
+                    <tbody id="tBody">
+                        <tr id="tRow">
 
+                            <td id="table_name"></td>
+                            <td id="table_email"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <button class="removeUser btn btn-danger">Delete Users</button>
+            </div>
         </div>
 
-        <input type="submit" value="Add User" class="btn btn-outline-success btn-lg" id="get_name">
-    </form>
-    <div class="userAdded">
-        <ul class="users">
 
-        </ul>
-    </div>
-    <!-- this is where the names will be displayed -->
-    <div id="displayUsers">
-        <h3>Users table</h3>
-        <table class="added_users table table-hover">
-            <thead>
-                <tr>
+    </main>
 
-                    <th scope="col">User</th>
-                    <th scope="col">Email</th>
-                </tr>
 
-            </thead>
-            <tbody id="tBody">
-                <tr id="tRow">
-
-                    <td id="table_name"></td>
-                    <td id="table_email"></td>
-                </tr>
-
-            </tbody>
-        </table>
-        <button class="removeUser btn btn-danger">Delete Users</button>
-    </div>
-
- </main>
-     
-           
 
 
 
