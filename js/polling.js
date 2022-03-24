@@ -7,36 +7,38 @@ $("#voting-form").submit(function(e) {
     e.preventDefault(); // <==stop page refresh==>
 });
 
+var buttonEl  = `<br> <button style='background-color:#00e461;color:white;border-radius:25px;border:none;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;'>View results</button>`
+
+
 //Radio votE logic
 function checkButton() {  
     if(document.getElementById('color-red').checked) { 
         document.getElementById("tick").innerHTML 
-            =  "You have voted for " +
-            document.getElementById("color-red").value;
+            =  "You have voted for " + document.getElementById("color-red").value + buttonEl ;
     } 
     else if(document.getElementById('color-blue').checked) { 
         document.getElementById("tick").innerHTML 
-            =  "You have voted for " +
-            document.getElementById("color-blue").value;  
+            =  "You have voted for " + document.getElementById("color-blue").value + buttonEl ;
     } 
     else if(document.getElementById('color-pink').checked) { 
         document.getElementById("tick").innerHTML 
             = "You have voted for " +
-            document.getElementById("color-pink").value;
+            document.getElementById("color-pink").value + buttonEl;
     }        
     else if(document.getElementById('color-orange').checked) { 
         document.getElementById("tick").innerHTML 
-            = "You have voted for " +
-            document.getElementById("color-orange").value;
+            = "You have voted for " + 
+            document.getElementById("color-orange").value + buttonEl
     }
     else if(document.getElementById('color-mediumslateblue').checked) { 
         document.getElementById("tick").innerHTML 
             = "You have voted for " +
-            document.getElementById("color-mediumslateblue").value;   
+            document.getElementById("color-mediumslateblue").value + buttonEl;
     }
     else { 
         document.getElementById("error").innerHTML 
-            = "You have not voted for anyone, please pick a person"; 
+            = "You have not voted for anyone, please pick a person" + `<a href="polling-station.html"> make vote  </a` ;
+
     } 
 } 
 
