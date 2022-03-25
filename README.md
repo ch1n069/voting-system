@@ -58,7 +58,4 @@
 
 
 
-<<<<<<< HEAD
-=======
  # live link to our project 
->>>>>>> bc19e4e15eb290a94d2993c66d037d34f64b9008
