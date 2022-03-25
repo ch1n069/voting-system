@@ -50,7 +50,7 @@ login.addEventListener("click", (e) => {
 
 auth.onAuthStateChanged((user) => {
     if (user) {
-        window.location = ''
+        window.location = 'admin.html'
     }
 
 })

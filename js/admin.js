@@ -22,3 +22,26 @@ $(document).ready(() => {
     })
 
 })
+
+
+
+const logOut = document.querySelector('#sign-out')
+logOut.addEventListener('click', (e) => {
+    e.preventDefault();
+
+
+    auth.signOut();
+    window.location.href = "login.html"
+
+
+
+
+
+    console.log("signed out")
+
+
+
+
+
+
+})
