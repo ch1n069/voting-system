@@ -10,18 +10,18 @@
 
 ## Screenshots
 
-!(first screen shot )[images/pic1.png]
+!(first screen shot )[./images/pic1.png]
 
 
 
-!(Second screen shot )[images/pics2.png]
+!(Second screen shot )[./images/pics2.png]
 
 
 
-!(Third screen shot )[images/pic3.png]
+!(Third screen shot )[./images/pic3.png]
 
 
-!(Fourth screen shot )[images/pic4.png]
+!(Fourth screen shot )[./images/pic4.png]
 
 
 
